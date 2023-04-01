@@ -17,7 +17,7 @@ spec:
         app: chatgpt-web
     spec:
       containers:
-        - image: alphaviae94/chatgpt-web
+        - image: ally94/chatgpt-web
           name: chatgpt-web
           imagePullPolicy: Always
           ports:

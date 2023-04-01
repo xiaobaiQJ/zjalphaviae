@@ -16,8 +16,8 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: 'https://alphaviae.oss-cn-chengdu.aliyuncs.com/alphaviae.png',
-      name: 'alphaviae',
-      description: '中聚全能助手',
+      name: 'ally',
+      description: '全能助手',
     },
   }
 }
