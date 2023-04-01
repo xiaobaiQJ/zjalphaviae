@@ -40,11 +40,11 @@ onMounted(() => {
 
 <template>
   <NSpin :show="loading">
-<!--    <div class="p-4 space-y-4">
+    <div class="p-4 space-y-4">
       <h2 class="text-xl font-bold">
         Version - {{ pkg.version }}
       </h2>
-      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
+<!--      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
         {{ $t("setting.balance") }}：{{ config?.balance ?? '-' }}
       </p>
@@ -53,7 +53,7 @@ onMounted(() => {
       </p>
       <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
       <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
-      <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>
-    </div>-->
+      <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>-->
+    </div>
   </NSpin>
 </template>
